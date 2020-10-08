@@ -1,0 +1,52 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="TeamStyle">
+        <item name="android:padding">@dimen/mainPadding</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="teamScore">
+        <item name="android:layout_width">@dimen/scoreDimens</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">@dimen/scoreTextSize</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+<!--        <item name="android:background">?android:attr/selectableItemBackground</item>-->
+    </style>
+    <style name="teamFouls">
+        <item name="android:layout_width">@dimen/scoreDimens</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">0</item>
+        <item name="android:textSize">@dimen/foulTextSize</item>
+        <item name="android:textColor">@color/scoreTextColor</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+    </style>
+    <style name="buttonsBar">
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">2</item>
+        <item name="android:background">@color/buttonsBar</item>
+    </style>
+
+    <style name="scoreControlButtons">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/mainPadding</item>
+        <item name="android:layout_margin">@dimen/mainPadding</item>
+        <item name="android:drawableStart">@drawable/plus</item>
+        <item name="android:textSize">@dimen/btn_text_size</item>
+        <item name="android:foreground">@drawable/button_ripple</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+</resources>

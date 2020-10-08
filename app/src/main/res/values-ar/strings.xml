@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="reset">اعادة للصفر</string>
+    <string name="add_one_score">هدف</string>
+    <string name="add_one_foul">خطأ</string>
+</resources>

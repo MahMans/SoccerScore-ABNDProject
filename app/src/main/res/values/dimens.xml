@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainPadding">8dp</dimen>
+    <dimen name="scoreTextSize">88sp</dimen>
+    <dimen name="foulTextSize">44sp</dimen>
+    <dimen name="scoreDimens">200dp</dimen>
+    <dimen name="btn_text_size">22sp</dimen>
+</resources>
